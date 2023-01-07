@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: #fa6862;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+h3 {
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: #94B6D2;
+	border-bottom: 2.5px solid #94B6D2;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: #FFFFFF;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left-side, .container .right-side {
+	position: relative;
+	padding: 40px;
+}
+
+/* start left side */
+.left-side {
+	background: #EBE8E8;
+}
+
+.profile-img {
+	position: relative;
+	height: 250px;
+	width: 250px;
+	border: 5px solid #94B6D2;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.profile-img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*start right side*/
+.right-side {
+	margin-top: 100px;
+}
+
+.phase {
+	margin-top: 5px;
+}
+
+.skills ul {
+	list-style: disc;
+}
+
+/*
+#FA6862
+#EBE8E8
+#94B6D2
+*/
